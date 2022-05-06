@@ -1,0 +1,11 @@
+; Innovations.def : 声明 DLL 的模块参数。
+
+LIBRARY      "Innovations"
+
+EXPORTS
+    ; 此处可以是显式导出
+LtCreateObject
+LtDestroyObject
+LtDLLMain
+LtShowWindow
+LtResetModule
